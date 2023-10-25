@@ -1,2 +1,3 @@
 console.log("que hay")
-alert(hola)
+alert("hola buenas")
+alert("hola que tal")
