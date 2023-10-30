@@ -1,16 +1,24 @@
-console.log("que hay")
-alert("hola buenas")
+// console.log("que hay")
+// alert("hola buenas")
 
-let arr = [100,20,200,300]
+// let arr = [100,20,200,300]
 
-for (const valor of arr) {
-    console.log(valor+25)
-}
+// for (const valor of arr) {
+//     console.log(valor+25)
+// }
 
 
-let cont = 5,
-conta = 13;
+let cont = 8,
+conta = 0,
+mas = 0,
+more = 3
 
-if(cont >= 1 && cont <= 12 && conta >= 0 && conta <= 12){
-    alert("hola que tal")
+// if(mas*conta*more === cont){
+//     alert("hola que tal desde el if")
+// }
+
+for (let index = 0; conta <= 500; index++) {
+    conta = cont*index
+    console.log(`${mas} = ${conta}`)
+    mas ++
 }
