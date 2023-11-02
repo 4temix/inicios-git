@@ -23,4 +23,9 @@ for (let index = 1; conta <= 500; index++) {
     mas ++
 }
 
+
 console.log("ola")
+
+console.log("olatouch")
+
+alert("hola buenas")
