@@ -22,3 +22,5 @@ for (let index = 1; conta <= 500; index++) {
     console.log(`${mas} = ${conta}`)
     mas ++
 }
+
+console.log("ola")
