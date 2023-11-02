@@ -10,15 +10,19 @@
 
 let cont = 8,
 conta = 0,
-mas = 0,
+mas = 1,
 more = 3
 
 // if(mas*conta*more === cont){
 //     alert("hola que tal desde el if")
 // }
 
-for (let index = 0; conta <= 500; index++) {
+for (let index = 1; conta <= 500; index++) {
     conta = cont*index
     console.log(`${mas} = ${conta}`)
     mas ++
 }
+
+console.log("olatouch")
+
+alert("hola buenas")
